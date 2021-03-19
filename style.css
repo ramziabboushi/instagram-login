@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #FAFAFA;
+}
+.content-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.content-container {
+    width: 350px;
+    height: 630px;
+    margin-top: 80px;
+}
+.login-container {
+    background-color: white;
+    height: 380px;
+    width: 350px;
+    border: 1px solid lightgrey;
+}
+.logo-ctr {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input[type="password"], input[type="text"] {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-bottom: 6px;
+    font-size: 11px;
+    width: 268px;
+    height: 36px;
+    background-color: #FAFAFA;
+}
+input[type="submit"] {
+    border: none;
+    width: 274px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #B2DFFC;
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.or-divider {
+    text-align: center;
+    color: rgb(148, 148, 148);
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.line {
+    height: 1px;
+    width: 107px;
+    background-color: lightgrey;
+}
+.or-divider > p {
+    margin: 0 20px;
+    font-weight: bold;
+}
+.facebook-login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+#fb-logo {
+    transform: scale(0.25);
+}
+.facebook-text {
+    font-size: 13px;
+    color: #4a5f8d;
+    transform: translateX(-13px);
+}
+.pw-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pw-forgot > a {
+    text-decoration: none;
+    color: #00376b;
+    font-size: 11px;
+}
+.sign-up-ctr {
+    width: 350px;
+    height: 63px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.sign-up-text a{
+    text-decoration: none;
+    color: #0095f6;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.get-app-ctr {
+    width: 350px;
+    height: 102px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.get-app-ctr > p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.app-stores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#app-store {
+    width: 136px;
+    height: 40px;
+    margin: 0 5px;
+}
+#google-play {
+    width: 136px;
+    height: 40px;
+    margin: 0 5px;
+}
+.footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    font-size: 11px;
+    color: #8e8e8e;
+    padding-top: 50px;
+}
+.footer-1 {
+    width: 580px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer a {
+    text-decoration: none;
+    color: #8e8e8e;
+    margin: 0 10px;
+    padding: 0;
+}
+.footer-2 {
+    display: flex;
+}
+@media screen and (min-width: 875px) {
+    .content-main {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .image-container {
+        width: 454px;
+        height: 618px;
+        background: center / 94% url('iphone-img.PNG');
+        margin: 20px;
+    }
+
+}
